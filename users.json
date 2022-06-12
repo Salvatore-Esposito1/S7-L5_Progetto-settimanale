@@ -1,0 +1,48 @@
+[
+    {
+      "livello": "livello 10",
+      "nome": "Barbaro" ,
+      "descrizione": "Questo impavido guerriero getta nel caos i villaggi nemici con l’aiuto dei suoi possenti muscoli e dei suoi particolari baffi.",
+      "immagine": "img/Barbaro.png",
+      "attacco": "42",
+      "difesa": "250",
+      "velocita": "16"
+    },
+    {
+      "livello": "livello 10",
+      "nome": "Arciere",
+      "descrizione": "Questi tiratori scelti preferiscono mantenere le distanze, sia sul campo di battaglia che nella vita. Niente li rende più felici che dedicarsi con risolutezza all’abbattimento del proprio bersaglio.",
+      "immagine": "img/Arciere.png",
+      "attacco": "34",
+      "difesa": "60",
+      "velocita": "24"
+    },
+    {
+      "livello": "livello 10",
+      "nome": "Gigante" ,
+      "descrizione": "Questi ragazzoni sembrano tranquilli, ma dà  loro una torretta o un cannone e vedrai scatenare la loro furia! Lenti ma resistenti, questi guerrieri sono utili per assorbire i colpi.",
+      "immagine": "img/Gigante3.png",
+      "attacco": "144",
+      "difesa": "2000",
+      "velocita": "12"
+    },
+    {
+      "livello": "livello 8",
+      "nome": "Goblin",
+      "descrizione": "Queste piccole creature fastidiose hanno occhi solo per una cosa: bottino! Sono più veloci di una trappola a scatto, e la loro fame di risorse è senza limiti.",
+      "immagine": "img/Goblin.png",
+      "attacco": "62",
+      "difesa": "126",
+      "velocita": "32"
+    },
+    {
+      "livello": "livello 10",
+      "nome": "Stregone",
+      "descrizione": "Lo Stregone è una presenza terrificante sul campo di battaglia. Permette la distruzione totale sia in terra che in aria!",
+      "immagine": "img/Stregone.png",
+      "attacco": "367",
+      "difesa": "250",
+      "velocita": "16"
+    }
+  ]
+  

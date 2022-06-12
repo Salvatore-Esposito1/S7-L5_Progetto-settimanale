@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contenitore {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#8c7a7a), color-stop(65%, #af877c), to(#af877c)) fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url("../img/coc-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9e9e9e;
+  letter-spacing: 0.7px;
+}
+
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapper:focus {
+  outline: 0;
+}
+
+.clash-card {
+  background: white;
+  width: 350px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 19px;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: -1px 15px 30px -12px black;
+          box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+
+.clash-card__image {
+  position: relative;
+  margin-bottom: 35px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  background-image: url("../img/clashofclans2.jpg");
+  background-size: cover;
+}
+
+.clash-card__level {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #ffdc13;
+}
+
+.clash-card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.clash-card__unit-stats {
+  font-weight: 700;
+}
+
+.clash-card__unit-stats .left-third {
+  border-bottom-left-radius: 14px;
+}
+
+.clash-card__unit-stats .one-third {
+  width: 33.33%;
+  float: left;
+  padding: 17px 0px;
+  border-right: 2px solid black;
+  background-color: #252d27;
+  color: white;
+}
+
+.clash-card__unit-stats .stat {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.clash-card__unit-stats .stat-value {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.clash-card__unit-stats .no-border {
+  border-right: none;
+  border-bottom-right-radius: 14px;
+}
+/*# sourceMappingURL=style.css.map */
